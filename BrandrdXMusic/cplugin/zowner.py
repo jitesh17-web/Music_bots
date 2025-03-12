@@ -41,7 +41,7 @@ async def repo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/learningbots79"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/Devil_codes"
                     )
                 ]
             ]
@@ -59,7 +59,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/learningbots79"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/DEVIL_CODES"
                     )
                 ]
             ]
@@ -76,7 +76,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/learningbots79"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/deVIL_CODES"
                     )
                 ]
             ]

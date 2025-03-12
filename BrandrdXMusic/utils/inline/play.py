@@ -68,10 +68,10 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Want_To_Know_Me"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Devil_codes"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/learningbots79"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+eBHWW1mTPHQ5ZmE9"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,10 +90,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Want_To_Know_Me"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Devil_codes"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/learningbots79"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+eBHWW1mTPHQ5ZmE9"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -245,10 +245,10 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Want_To_Know_Me"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Devil_codes"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/learningbots79"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+eBHWW1mTPHQ5ZmE9"
             ),
         ],
 

@@ -59,9 +59,9 @@
       },
       "AUTO_GCAST_MSG": {
         "description": "Fill here auto broadcast message which will be auto broadcast twice in a day. ( any type of message you can copy and paste here )",
-        "value": "",
+        "value": "🎵 **Akshita Music Bot is at your service!** 🎵\n\n✨ Looking for high-quality music in your group chats?\n🚀 Play songs, playlists, and live streams with crystal clear audio\n🎧 Support for YouTube, Spotify, SoundCloud and more\n⚡ Super fast response with minimal lag\n\nAdd @Akshita_Music_Bot to your groups now and enjoy the music experience!\n\n💫",
         "required": false
-      }, 
+      },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
         "value": "",

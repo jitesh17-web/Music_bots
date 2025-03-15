@@ -16,6 +16,9 @@ async def useradd(client, message: Message, _):
         if len(message.command) != 2:
             return await message.reply_text(_["general_1"])
     user = await extract_user(message)
+    if user.id in SUDOERS:
+        return await message.reply_text("you can't block another sudo user")
+    
     if user.id in BANNED_USERS:
         return await message.reply_text(_["block_1"].format(user.mention))
     await add_gban_user(user.id)

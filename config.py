@@ -8,15 +8,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 21435734))
-API_HASH = getenv("API_HASH", "50602c02f9f531b703b21d3c9765820f")
+API_ID = int(getenv("API_ID", 27090946))
+API_HASH = getenv("API_HASH", "20db987f30185a890d3ad0d484f104f0")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7707500389:AAH8QHvi83cObQGCoMNV3XXXk2T-9N4Lv1c")
+BOT_TOKEN = getenv("BOT_TOKEN", "7813900920:AAEiJmBCUE7ICGzJVj9eTIJ6ovc1MXURXng")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Japusahu:Japusahu@japu.20mge.mongodb.net/?retryWrites=true&w=majority&appName=Japu")
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴀᴋꜱʜɪᴛᴀ ✘ ᴍᴜꜱɪᴄ˼")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Japusahu:Japusahu@japusahu.cmh43.mongodb.net/?retryWrites=true&w=majority&appName=Japusahu")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴀɴᴀɴʏᴀ ✘ ᴍᴜꜱɪᴄ˼")
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", "-1002385680673"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002385680673"))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "7526005252"))
+OWNER_ID = int(getenv("OWNER_ID", "8029805782"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Devilcode53/Music_bots",
+    "https://github.com/jitesh17-web/Music_bots,
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -50,7 +50,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+eBHWW1mTPHQ5ZmE9")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
-AUTO_GCAST = os.getenv("AUTO_GCAST")
+AUTO_GCAST = os.getenv("AUTO_GCAST", "True")
 
 # Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION", "BQG4xJsAPKxdIO_rDA2Ps9LOCM1YVWg3KdewvnOkM4HbWo9tUG_KXU0xOdO9TEe8txNMK6LF95N9TU_9Ou8IuqL95Aget30_gh4LOqCu5nKTWUhWMhr0vIHvZ07fPmy98yWT1YmbiaFlo0YfDSxfHWytndt7ekqKlNJq1f73MvJ4tcvHR9gZSLQGsoIrDOf7TIXNLBi7u-a0LWsfxmRQT8YN8UFg1fOl8JXDx0QuiM01z9qMDhnsukxQSBvTOzsOFquLQ4_QwlssvZP7vSasv-cKBIj5IvIgVDVRxnuRveRnUdEas88WKK7XsbPzDI7mxkQCJ4m2TDvYKWSu0pZ9CuGNdK3y-gAAAAHLaLumAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ae70cde12942297e2e831-67fe4183def6493417.jpg"
+    "START_IMG_URL", "https://graph.org/file/edf8681878adb193cc93f-dea5e363da42764f73.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/6a912b9a041938aa647a6-1072f949d28dadec76.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/e46ff6bfeb4c80a2d3f23-92eaee347cb8fd2bb7.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/4310ea5f523520b2b765b.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/63dc6d30fb455912a3c78-8f831f1ebcb07297bc.jpg"
+STATS_IMG_URL = "https://graph.org/file/09aeb75ea093160ed3fbd-797cda7ee687de8039.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"

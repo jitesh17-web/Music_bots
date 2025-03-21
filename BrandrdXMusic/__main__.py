@@ -14,19 +14,19 @@ from config import BANNED_USERS
 
 from BrandrdXMusic.plugins.tools.clone import restart_bots
 
-
+STRING1="BQEyh-EAgr-25XRaPfkGwX-ksMioRBgn8142hMC91MIevQouUEWOhGSQNrgHAw5U2CcnWeGduN6dSlKV9rGrlhdBSie7PPFhmD7XHEi4NpgujqBEQepfi5HRgthx1JDBglNrrvTKAuQg4YTGDOWksgsJA_CqRZgPl8kNmRkZwbZM8LljLZ0UlDjjcm9_6gKiaRd-z0mWyp6XSt_RVF_FV1n2Ya3MCxDjO2GbhZRhp8-a6wpUyp8flVedIiBKabWfrwriTaVAXW8Bg5RS1iPLzFxvkLpVC94uO8jbZh0mZffdtS5UZ6_HS6WRTRj-SNt7_L4jjGgGz7wTCOzpnuZEE39SvPNdRgAAAAHRFShNAA"
 
 
 async def init():
-    if (
-        not config.STRING1
-        and not config.STRING2
-        and not config.STRING3
-        and not config.STRING4
-        and not config.STRING5
-    ):
-        LOGGER(__name__).error("Assistant client variables not defined, exiting...")
-        exit()
+    # if (
+    #     not STRING1
+    #     and not config.STRING2
+    #     and not config.STRING3
+    #     and not config.STRING4
+    #     and not config.STRING5
+    # ):
+    #     LOGGER(__name__).error("Assistant client variables not defined, exiting...")
+    #     exit()
     await sudo()
     try:
         users = await get_gbanned()

@@ -20,6 +20,7 @@ from BrandrdXMusic.plugins.tools.clone import restart_bots
 async def init():
     if (
         not config.STRING1
+        and not config.STRING_SESSION
         and not config.STRING2
         and not config.STRING3
         and not config.STRING4

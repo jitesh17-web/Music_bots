@@ -49,6 +49,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+eBHWW1mTPHQ5ZmE9")
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
+
 # Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
 AUTO_GCAST = os.getenv("AUTO_GCAST", "True")
 
@@ -113,6 +114,7 @@ def time_to_seconds(time):
 
 
 DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
+STRING1 = "BQEyh-EAgr-25XRaPfkGwX-ksMioRBgn8142hMC91MIevQouUEWOhGSQNrgHAw5U2CcnWeGduN6dSlKV9rGrlhdBSie7PPFhmD7XHEi4NpgujqBEQepfi5HRgthx1JDBglNrrvTKAuQg4YTGDOWksgsJA_CqRZgPl8kNmRkZwbZM8LljLZ0UlDjjcm9_6gKiaRd-z0mWyp6XSt_RVF_FV1n2Ya3MCxDjO2GbhZRhp8-a6wpUyp8flVedIiBKabWfrwriTaVAXW8Bg5RS1iPLzFxvkLpVC94uO8jbZh0mZffdtS5UZ6_HS6WRTRj-SNt7_L4jjGgGz7wTCOzpnuZEE39SvPNdRgAAAAHRFShNAA"
 
 
 if SUPPORT_CHANNEL:
